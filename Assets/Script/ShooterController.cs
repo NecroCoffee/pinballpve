@@ -22,8 +22,8 @@ public class ShooterController : MonoBehaviour
     /// </summary>
     private Vector2 ShooterDifference()
     {
-        float y = shooterRootPos.y - shooterPos.y;
-        
+        return shooterPos;
+        //ÉGÉâÅ[ÇÕÇ¢ÇƒÇﬂÇÒÇ«Ç≠ÇπÇ¶Ç©ÇÁâºëgÇ›
     }
 
     /// <summary>
@@ -31,7 +31,7 @@ public class ShooterController : MonoBehaviour
     /// </summary>
     private void PushShooter()
     {
-        rig.AddForce()
+        //rig.AddForce()
     }
 
     private void Awake()
